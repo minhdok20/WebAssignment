@@ -1,0 +1,89 @@
+.email-box {
+    height: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.email-box i {
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox,
+.btn {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: #000;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fas {
+    color: white;
+}
+
+.inp-search {
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+.inp-search::placeholder {
+    color: white;
+}
+
+.inp-search:focus {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 0 0 0.1rem white;
+    outline: none;
+}
+
+.inp-search:focus::placeholder {
+    color: black;
+}
+
+.btn-search {
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.btn-search:hover {
+    background-color: transparent;
+    border-color: white;
+    color: #fff;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
